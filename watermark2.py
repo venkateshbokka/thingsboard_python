@@ -5,11 +5,11 @@ import json
 import paho.mqtt.client as mqtt
 
 # MQTT broker details
-broker = "mqtt.thingsboard.cloud"
-port = 1883
-topic = "esp/telemetry"
-username = "venkat1"
-password = "venkat1"
+broker = "mqtt.thingsboard.cloud" # you need change here
+port = 1883 # you need change here
+topic = "esp/telemetry" # you need change here
+username = "venkat1"# you need change here
+password = "venkat1"# you need change here
 client_id = "water2"  # Replace with your desired client ID
 
 # Original data with constant fields
